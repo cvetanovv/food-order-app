@@ -1,8 +1,11 @@
+import { Header } from "./components/Layout/Header";
+
+
 function App() {
   return (
-    <div>
-      <h2></h2>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
