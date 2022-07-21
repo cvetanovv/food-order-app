@@ -6,7 +6,7 @@ import mealsImg from "../../assets/meals.jpg";
 import classes from "./Header.module.css";
 
 
-export const Header = (props) => {
+const Header = (props) => {
     return (
         <>
             <header className={classes.header}>
@@ -19,3 +19,5 @@ export const Header = (props) => {
         </>
     );
 };
+
+export default Header;
